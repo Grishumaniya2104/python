@@ -2,16 +2,15 @@
 
 #addition +
 
-num1=10;
+num1=10
 
-mum2=20;
-
-result= num1 + num2;
+num2=20
+result= num1 + num2
 print("addition,result")
 
 #subtration -
 
-result= num2 - num1;
+result= num2 - num1
 print("subtration, result")
 
 
