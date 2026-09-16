@@ -1,0 +1,14 @@
+#what is oprators in python
+#oprator in python are special symbols or keywords that are use to perform oprations on variable and values.\
+#they allow you to manipulate data and perform calcutations,comparisons, and logical operations. Python supports various types of operators, including:#type of operators in python
+
+# 1. Arithmetic Operators
+# 2. Comparison Operators
+# 3. Logical Operators
+# 4. Assignment Operators
+# 5. Bitwise Operators
+# 6. Membership Operators
+
+# 1. Arithmetic Operators: examples include + (addition), - (subtraction), * (multiplication), / (division), % (modulus), ** (exponentiation), and // (floor division).
+
+# +,-,*,/,%,**,//
