@@ -62,7 +62,7 @@ print("is green avaliable in color list?", "pink" not in color)
 
 #example-2
 
-#True case
+#True case 
 
 print("is badminton avaliable in game list?", "badminton" not in game)
 
@@ -81,3 +81,6 @@ print("is samosa avaliable in food list?", "samosa" not in food)
 #False case
 
 print("is samosa avaliable in food list?", "panipuri" not in food)
+
+
+#block element will occupay full withh and always start with new line 
