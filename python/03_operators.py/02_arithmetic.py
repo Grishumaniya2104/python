@@ -16,26 +16,26 @@ print("subtration, result")
 
 #multiplication *
 
-result= num1 * num2;
+result= num1 * num2; 
 print("multiplication, result")
 
 
 #division /
 
-result= num2/num1;
+result= num2/num1; 
 print("division, result")
 
 
 #floor division //
 
-result= num2//num1;
+result= num2//num1; 
 print("floor division, result")
 
 #modulo %
-result= num2 % num1;
+result= num2 % num1; 
 print("modulo, result")
 
 #exponential **
 
-result= num2**3;
+result= num2**3; 
 print("exponential, result")
