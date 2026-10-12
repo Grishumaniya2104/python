@@ -1,64 +1,46 @@
 #Question-1
 
-numbers=[1,2,3,4,5,6,7,8,9,10]
+firstname=input("Enter your first name : ")
+lastname=input("Enter your last name : ")
 
-numbers.append(11)
+print(f"Hello {firstname} {lastname}!")
 
-print("updated list:",numbers)
+#Question-2
 
+item ="Apple"
+price = 5.500
 
-#question-2
+print(f"The price of {item} is {price :.3f} dollars.")
 
-num1=int(input(how many numbers do you want to add in the list))
+#Question-3
 
-numberList=[]
+name=input("Enter your name : ")
 
-for i in range (total number):
-    num=int(input(f"enter number{i+1}:"))
-    numberList.append(num)
+print(f"Entered name : {name}")
 
-    maxnumber = max(numberList)
+palindrome= name[::-1]
 
-    minnumber=min(numberList)
-
-    maxnumber=
-
-#question-3
-
-numbers=(1,2,2,3,4,4,5)
-unique_value = set(numbers)
-
-print("tuple:",numbers)
-print("unique_value:",unique_value)
-
-
+if palindrome==name:
+    print("Given name is palindrome.")
+else:
+    print("Given name is not palindrome.")
 
 #Question-4
 
-numbers=[10,20,30,40,50]
-numbers[2]=35
-print(numbers)
+text = input("Enter some text : ")
+
+print(text.upper())
+
+print(text.lower())
+
+print(text.title())
 
 #Question-5
 
+charecters='abcdefghijklmnop'
 
-#Question-6
+print(len(charecters))
 
-numbers = [10, 20, 30, 40]
+name=input("Enter your name : ")
 
-print("Original list:", numbers)
-
-numbers.append(50)
-print("After adding:", numbers)
-
-numbers.remove(20)
-print("After removing:", numbers)
-
-numbers[1] = 100
-print("After replacing:", numbers)
-
-#Question-7
-
-#Question-8
-
-#Question-9
+print(len(name))

@@ -9,3 +9,4 @@ print("products",products)
 
 del products["mobile"]
 print("produts",products)
+
