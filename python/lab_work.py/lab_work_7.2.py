@@ -61,9 +61,29 @@ print("Highest Priced Product:", highest_product)
 print("Price:", products[highest_product])
 
 #Question-5
+colors=["red","blue","green","pink","pink"]
+print("List of colors:",colors)
+
+print("set of colors:",set(colors))
+print("tuple of colors:",tuple(colors))
+print()
+
+vegetables=("potato","tomato","onion","garlic")
+print("Tuple of vegetables :",vegetables)
+
+print("List of vegetables :",list(vegetables))
+print()
 
 
+subjects = {"maths","english","science","social","maths"}
+print("Set of subjects :",subjects)
+
+print("List of subjects :",list(subjects))
+print("Tuple of subjects :",tuple(subjects))
+print()
 
 #Question-6
+
+
 
 #Question-7

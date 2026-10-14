@@ -42,6 +42,19 @@ print(numbers)
 #Question-5
 
 
+my_list = [1, [2, 3], 4]
+
+print("Original List:", my_list)
+
+
+my_list[1][0] = 20
+my_list[1].append(30)
+
+
+print("Updated List:", my_list)
+
+
+
 #Question-6
 
 numbers = [10, 20, 30, 40]
@@ -69,4 +82,32 @@ print("updated Tuple:",data)
 
 #Question-8
 
+a= 10
+b= 20
+c=""
+
+print("before a:",a)
+print("before b:",b)
+
+c=a #c=10
+a=b #a=20
+b=c #b=10
+
+print("after a:",a)
+print("after b:",b)
+
 #Question-9
+
+a=10
+b=20
+
+print("before a:",a)
+print("before b:",b)
+
+a=a+b  #a=30
+b=a-b  #b=10
+
+a=a-b  #a=20
+
+print("after a:",a)
+print("after b:",b)
