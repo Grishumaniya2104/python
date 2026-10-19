@@ -1,68 +1,68 @@
 # #Question-1
 
-# students=[
-#     {"id":1, "name":"Alice","marks":85},
-#     {"id":2, "name":"Bob", "marks":78}
-#     ]
+ students=[
+   {"id":1, "name":"Alice","marks":85},
+     {"id":2, "name":"Bob", "marks":78}
+     ]
 
 
 
-# print("student details:")
+ print("student details:")
 
-# for student in students:
-#     print("name:",student["name"])
-#     print("marks", student["marks"])
+ for student in students:
+     print("name:",student["name"])
+     print("marks", student["marks"])
     
 
 #Question-2
 
 
-# students = [
-#     {"id": 1, "name": "Alice", "marks": 85},
-#     {"id": 2, "name": "Bob", "marks": 78}
-# ]
+ students = [
+     {"id": 1, "name": "Alice", "marks": 85},
+     {"id": 2, "name": "Bob", "marks": 78}
+ ]
 
-# student_id = int(input("Enter student ID: "))
-# name = input("Enter student name: ")
-# marks = int(input("Enter student marks: "))
+ student_id = int(input("Enter student ID: "))
+ name = input("Enter student name: ")
+ marks = int(input("Enter student marks: "))
 
-# new_student = {
-#     "id": student_id,
-#     "name": name,
-#     "marks": marks
-# }
+ new_student = {
+     "id": student_id,
+     "name": name,
+     "marks": marks
+ }
 
-# students.append(new_student)
+ students.append(new_student)
 
-# print("Updated Student List:")
+ print("Updated Student List:")
 
-# for student in students:
-#     print(student)
+ for student in students:
+     print(student)
 
 
 #Question-3
 
-# students = [
-#     {"id": 1, "name": "Alice", "marks": 85},
-#     {"id": 2, "name": "Bob", "marks": 78}
-# ]
+ students = [
+     {"id": 1, "name": "Alice", "marks": 85},
+     {"id": 2, "name": "Bob", "marks": 78}
+ ]
 
 
 # search_id=int(input("enter student id to search"))
 
-# found=False
+ found=False
 
-# for student in students:
-#     if student["id"]==search_id:
-#         print("student found")
-#         print(student["id"])
-#         print(student["name"])
-#         print(student["marks"])
+ for student in students:
+     if student["id"]==search_id:
+         print("student found")
+         print(student["id"])
+         print(student["name"])
+         print(student["marks"])
 
-#         found=True
+         found=True
 
-# if not found:
-#     print("student with this id not found")
+ if not found:
+     print("student with this id not found")
 
 
 #Question-4
